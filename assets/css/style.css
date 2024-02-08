@@ -1,4 +1,4 @@
-/* --------- Global style */
+/*Global style*/
 body {
     background-color: white;
     font-family: "Protest Strike", sans-serif;
@@ -6,17 +6,19 @@ body {
     text-align: center;
 }
 
-/* --------- Heading */
+/*Heading*/
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
 
+/*Logo*/
 .logo {
     height: 80px;
     padding-right: 5px;
 }
 
+/*Game Area*/
 .game-area {
     background-color: #e6cdc834;
     box-sizing: border-box;
@@ -29,6 +31,7 @@ body {
     padding: 1%;
 }
 
+/*Question Area*/
 .question-area {
     width: 50%;
     font-size: 2rem;
@@ -36,13 +39,16 @@ body {
     padding: 50px 0;
 }
 
+/*Button*/
 .btn {
     display: inline-block;
     width: 175px;
     height: 175px;
     background-color: #e6cdc8af;
+    border-style: hidden;
 }
 
+/*Score Area*/
 .score-area {
     margin: 5px auto;
     width: 60%;
@@ -64,9 +70,10 @@ body {
     padding: 25px;
 }
 
-/* --------- Media queries */
+/*Media queries*/
 @media (max-width: 414px) {
 
+    /*Question Area*/
     .question-area {
         padding: 10% 0;
         width: 100%;
@@ -76,6 +83,7 @@ body {
         padding: 0;
     }
 
+    /*Score Area*/
     .score-area {
         width: 100%;
     }
@@ -86,16 +94,20 @@ body {
         padding: 5px;
     }
 
+    /*Heading*/
     .heading {
         font-size: 2rem;
     }
 }
 
 @media (max-width: 320px) {
+
+    /*Game Area*/
     .game-area {
         height: 70vh;
     }
 
+    /*Quetsion Area*/
     .question-area {
         padding: 10px 0;
     }
