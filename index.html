@@ -9,11 +9,13 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap"
     />
-
+    <!--CSS Link-->
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!--Document Title-->
     <title>Quizzed</title>
   </head>
   <body>
+    <!--Heading-->
     <h1 class="heading">
       <img
         class="logo"
@@ -23,13 +25,26 @@
       Quizzed
     </h1>
 
-    <div class="game-area"></div>
-
-    <div class="score-area">
-      <p class="score">Correct Answers <span id="score">0</span></p>
-      <p class="score">Incorrect Answers <span id="incorrect">0</span></p>
+    <!--Game Area-->
+    <div class="game-area">
+      <div class="question-area">
+        <p class="question">What year did Brazil win the Football World Cup?</p>
+      </div>
+      <div class="select-area">
+        <button class="btn" id="ans-one">2005</button>
+        <button class="btn" id="asn-two">2016</button>
+      </div>
     </div>
 
+
+
+    <!--Score Area-->
+    <div class="score-area">
+      <p class="score">Correct Answers:<span id="score">0</span></p>
+      <p class="score">Incorrect Answers:<span id="incorrect">0</span></p>
+    </div>
+
+    <!--JS Script Link-->
     <script src="assets/js/script.js"></script>
   </body>
 </html>
