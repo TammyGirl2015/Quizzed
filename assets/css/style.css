@@ -16,3 +16,75 @@ body {
     height: 80px;
     padding-right: 5px;
 }
+
+.game-area {
+    background-color: #E6ECF0;
+    box-sizing: border-box;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1%;
+}
+
+.question-area {
+    width: 50%;
+    font-size: 2rem;
+    margin: auto;
+    padding: 50px 0;
+}
+
+.question-area span {
+    padding: 0 15px;
+}
+
+.score-area {
+    margin: 5px auto;
+    width: 60%;
+    font-size: 1.2rem;
+}
+
+#score {
+    color: green;
+    font-weight: bold;
+}
+
+#incorrect {
+    color: red;
+    font-weight: bold;
+}
+
+.scores {
+    display: inline-block;
+    padding: 25px;
+}
+
+/* --------- Media queries */
+@media (max-width: 414px){
+
+.question-area {
+    padding: 10% 0;
+    width: 100%;
+}
+
+.question-area span {
+    padding: 0;
+}
+
+.score-area {
+    width: 100%;
+}
+
+.scores {
+    margin: 0.5em auto;
+    display: block;
+    padding: 5px;
+}
+
+.heading {
+    font-size: 2rem;
+}
+}
+
