@@ -62,29 +62,39 @@ body {
 }
 
 /* --------- Media queries */
-@media (max-width: 414px){
+@media (max-width: 414px) {
 
-.question-area {
-    padding: 10% 0;
-    width: 100%;
+    .question-area {
+        padding: 10% 0;
+        width: 100%;
+    }
+
+    .question-area span {
+        padding: 0;
+    }
+
+    .score-area {
+        width: 100%;
+    }
+
+    .scores {
+        margin: 0.5em auto;
+        display: block;
+        padding: 5px;
+    }
+
+    .heading {
+        font-size: 2rem;
+    }
 }
 
-.question-area span {
-    padding: 0;
-}
+@media (max-width: 320px) {
+    .game-area {
+        height: 70vh;
+    }
 
-.score-area {
-    width: 100%;
-}
+    .question-area {
+        padding: 10px 0;
+    }
 
-.scores {
-    margin: 0.5em auto;
-    display: block;
-    padding: 5px;
 }
-
-.heading {
-    font-size: 2rem;
-}
-}
-
