@@ -1,8 +1,18 @@
 /* --------- Global style */
-
 body {
     background-color: white;
     font-family: "Protest Strike", sans-serif;
     color: #445361;
     text-align: center;
-    }
+}
+
+/* --------- Heading */
+.heading {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.logo {
+    height: 80px;
+    padding-right: 5px;
+}
