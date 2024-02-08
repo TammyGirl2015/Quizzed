@@ -18,7 +18,7 @@ body {
 }
 
 .game-area {
-    background-color: #E6ECF0;
+    background-color: #e6cdc834;
     box-sizing: border-box;
     width: 85%;
     height: 65vh;
@@ -36,8 +36,11 @@ body {
     padding: 50px 0;
 }
 
-.question-area span {
-    padding: 0 15px;
+.btn {
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    background-color: #e6cdc8af;
 }
 
 .score-area {
