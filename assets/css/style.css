@@ -73,19 +73,37 @@ body {
 /*Media queries*/
 @media (max-width: 414px) {
 
+    /*Game Area*/
+    .game-area {
+        height: 100%;
+    }
+
+    .btn {
+        width: 75px;
+        height: 75px;
+        background-color: #e6cdc8af;
+        border-style: hidden;
+    }
+
+
+    .select-area {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
     /*Question Area*/
     .question-area {
         padding: 10% 0;
         width: 100%;
-    }
-
-    .question-area span {
-        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     /*Score Area*/
     .score-area {
         width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .scores {
@@ -105,11 +123,16 @@ body {
     /*Game Area*/
     .game-area {
         height: 70vh;
+        display: flex;
+        flex-wrap: wrap;
+        height: 100%;
     }
 
-    /*Quetsion Area*/
+    /*Question Area*/
     .question-area {
         padding: 10px 0;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
