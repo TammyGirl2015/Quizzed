@@ -7,7 +7,7 @@ const questions = [
     },
     {
         question: "What is the capital of Germany?",
-        answers: ["Paris", "Berlin", "Madrid", "London"],
+        answers: ["Frankfurt", "Berlin", "Denmark", "Amsterdam"],
         correctAnswer: "Berlin"
     },
     {
@@ -128,7 +128,7 @@ function checkAnswer(answerIndex) {
 
     // Reset all button colors
     for (let i = 0; i < buttons.length; i++) {
-        buttons[i].style.backgroundColor = '#D5D6EA';
+        buttons[i].style.backgroundColor = '#D5D6EA'; // Assuming '#D5D6EA' is the default color
     }
 
     // Change the color of the selected button

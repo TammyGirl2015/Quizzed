@@ -1,8 +1,10 @@
 /*Global style*/
 body {
     background-color: white;
+    background-image: url("../images/pexels-photo-2078271.jpeg");
+    background-size: 100% auto;
     font-family: "Protest Strike", sans-serif;
-    color: #445361;
+    color: #ac32a2;
     text-align: center;
 }
 
@@ -77,6 +79,33 @@ body {
 
 .option:active {
     background-color: #ddd;
+}
+
+#quiz-container {
+    padding: 20px;
+    /* Adjust as needed */
+    margin: 20px;
+    /* Adjust as needed */
+}
+
+#options {
+    display: flex;
+    justify-content: space-between;
+    /* This will distribute the buttons evenly */
+    flex-wrap: wrap;
+    /* This will allow the buttons to wrap onto the next line if there isn't enough space */
+    margin: 20%;
+    margin-top: 10%;
+}
+
+
+
+button {
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    padding: 5px;
+    margin: 5px;
 }
 
 /*Media queries*/
