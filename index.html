@@ -1,49 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Google Fonts-->
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap"
-    />
-    <!--CSS Link-->
-    <link rel="stylesheet" href="assets/css/style.css"/>
-    <!--Document Title-->
-    <title>Quizzed</title>
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-    <!--Heading-->
-    <img
-      class="logo"
-      src="assets/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg"
-      alt="brain"
-    />
-    <h1 class="heading">Quizzed</h1>
-    <a href="home.html">Home</a>
-    <a href="index.html">Game Area</a>
-    <a href="form.html">Form</a>
+<!--Heading-->
+<img class="logo" src="assets/images/milad-fakurian-58Z17lnVS4U-unsplash.jpg" alt="brain" />
+<h1 class="heading">Quizzed</h1>
+<a href="home.html">Home</a>
+<a href="index.html">Game Area</a>
+<a href="form.html">Form</a>
 
-    <!--Game Area-->
-    <div class="game-area">
-      <div class="question-area">
-        <p class="question">What year did Brazil win the Football World Cup?</p>
-      </div>
-      <div class="select-area">
-        <button data-type="text ans-one" class="btn" id="ans-one">2005</button>
-        <button data-type="text ans-two" class="btn" id="ans-two">2016</button>
-      </div>
+    <div id="quiz-container">
+      <h1 id="question">Question goes here</h1>
+      <div id="options">
+        <button class="option">Option 1</button>
+        <button class="option">Option 2</button>
+        <button class="option">Option 3</button>
+        <button class="option">Option 4</button>
+      
+    <div id="results"></div>
     </div>
-    
-    <!--Score Area-->
-    <div class="score-area">
-      <p class="scores">Correct Answers:<span id="score">0</span></p>
-      <p class="scores">Incorrect Answers:<span id="incorrect">0</span></p>
-    </div>
-
-    <!--JS Script Link-->
     <script src="assets/js/script.js"></script>
   </body>
 </html>

@@ -32,7 +32,7 @@ body {
 }
 
 /*Question Area*/
-.question-area {
+.quiz-container {
     width: 50%;
     font-size: 2rem;
     margin: auto;
@@ -68,6 +68,15 @@ body {
 .scores {
     display: inline-block;
     padding: 25px;
+}
+
+.option {
+    /* Add your existing styles */
+    transition: background-color 0.3s ease;
+}
+
+.option:active {
+    background-color: #ddd;
 }
 
 /*Media queries*/
