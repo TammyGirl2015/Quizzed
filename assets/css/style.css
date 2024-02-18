@@ -1,10 +1,10 @@
 /*Global style*/
 body {
     background-color: white;
-    background-image: url("../images/pexels-photo-2078271.jpeg");
+    background-image: url("../images/pexels-karolina-grabowska-4709404.jpg");
     background-size: 100% auto;
     font-family: "Protest Strike", sans-serif;
-    color: #ac32a2;
+    color: #000000;
     text-align: center;
 }
 
@@ -18,6 +18,11 @@ body {
 .logo {
     height: 80px;
     padding-right: 5px;
+}
+
+p {
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /*Game Area*/
@@ -75,10 +80,11 @@ body {
 .option {
     /* Add your existing styles */
     transition: background-color 0.3s ease;
+    background-image: url("assets/images/pexels-codioful-(formerly-gradienta)-7130497.jpg");
 }
 
 .option:active {
-    background-color: #ddd;
+    background-color: rgb(112, 82, 106);
 }
 
 #quiz-container {
@@ -97,8 +103,6 @@ body {
     margin: 20%;
     margin-top: 10%;
 }
-
-
 
 button {
     display: inline-block;

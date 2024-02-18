@@ -100,7 +100,6 @@ const questions = [
         answers: ["France", "South Korea", "Singapore", "Bangladesh"],
         correctAnswer: "Bangladesh"
     },
-    // Add more questions as needed
 ];
 
 // Function to display a question
@@ -114,9 +113,9 @@ function showQuestion(question, answers) {
     answers.forEach((answer, index) => {
         const button = document.createElement('button');
         button.textContent = answer;
-        button.onclick = function () {
+        button.addEventListener('click', function () {
             checkAnswer(index);
-        };
+        });
         optionsElement.appendChild(button);
     });
 }
