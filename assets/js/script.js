@@ -104,12 +104,10 @@ const questions = [
 
 // Function to display a question
 function showQuestion(question, answers) {
+    const optionsElement = document.getElementById('options');
     const questionElement = document.getElementById('question');
     questionElement.textContent = question;
-
-    const optionsElement = document.getElementById('options');
     optionsElement.innerHTML = ''; // Clear previous options
-
     answers.forEach((answer, index) => {
         const button = document.createElement('button');
         button.textContent = answer;
@@ -120,38 +118,39 @@ function showQuestion(question, answers) {
     });
 }
 
+// Check Answer
 let score = 0;
-let currentQuestionIndex = 0; // Define currentQuestionIndex before using it
+let currentQuestionIndex = 0;
 
 function checkAnswer(answerIndex) {
     const currentQuestion = questions[currentQuestionIndex];
     const optionsElement = document.getElementById('options');
     const buttons = optionsElement.getElementsByTagName('button');
 
-    // Reset all button colors
     for (let i = 0; i < buttons.length; i++) {
         buttons[i].style.backgroundColor = '#D5D6EA';
     }
 
     // Check if the selected answer is correct
-    if (answerIndex === currentQuestion.answers.indexOf(currentQuestion.correctAnswer)) {
-        // Change the color of the selected button to green
+    if (currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer) {
         buttons[answerIndex].style.backgroundColor = 'green';
-        // Increment the score
+        // alert('Correct!');
         score++;
     } else {
-        // Change the color of the selected button to red
         buttons[answerIndex].style.backgroundColor = 'red';
+        // alert('Incorrect answer');
     }
 
-    // Move to the next question
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion(questions[currentQuestionIndex].question, questions[currentQuestionIndex].answers);
-    } else {
-        // Display the final score
-        displayResults();
-    }
+    // Move to the next question after a delay
+    setTimeout(function () {
+        currentQuestionIndex++;
+        if (currentQuestionIndex < questions.length) {
+            showQuestion(questions[currentQuestionIndex].question, questions[currentQuestionIndex].answers);
+        } else {
+            // Display the final score
+            displayResults();
+        }
+    }, 2000); // Wait for  2 seconds
 }
 
 // Function to display the final score
