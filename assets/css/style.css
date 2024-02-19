@@ -20,22 +20,13 @@ body {
     padding-right: 5px;
 }
 
+.nav {
+color: black;
+}
+
 p {
     padding-left: 5%;
     padding-right: 5%;
-}
-
-/*Game Area*/
-.game-area {
-    background-color: #e6cdc834;
-    box-sizing: border-box;
-    width: 85%;
-    height: 65vh;
-    max-height: 450px;
-    max-width: 830px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1%;
 }
 
 /*Question Area*/
@@ -46,60 +37,19 @@ p {
     padding: 50px 0;
 }
 
-/*Button*/
-.btn {
-    display: inline-block;
-    width: 175px;
-    height: 175px;
-    background-color: #e6cdc8af;
-    border-style: hidden;
-}
-
-/*Score Area*/
-.score-area {
-    margin: 5px auto;
-    width: 60%;
-    font-size: 1.2rem;
-}
-
-#score {
-    color: green;
-    font-weight: bold;
-}
-
-#incorrect {
-    color: red;
-    font-weight: bold;
-}
-
-.scores {
-    display: inline-block;
-    padding: 25px;
-}
-
 .option {
-    /* Add your existing styles */
     transition: background-color 0.3s ease;
-    background-image: url("assets/images/pexels-codioful-(formerly-gradienta)-7130497.jpg");
-}
-
-.option:active {
-    background-color: rgb(112, 82, 106);
 }
 
 #quiz-container {
     padding: 20px;
-    /* Adjust as needed */
     margin: 20px;
-    /* Adjust as needed */
 }
 
 #options {
     display: flex;
     justify-content: space-between;
-    /* This will distribute the buttons evenly */
     flex-wrap: wrap;
-    /* This will allow the buttons to wrap onto the next line if there isn't enough space */
     margin: 20%;
     margin-top: 10%;
 }
@@ -112,69 +62,26 @@ button {
     margin: 5px;
 }
 
-/*Media queries*/
-@media (max-width: 414px) {
-
-    /*Game Area*/
-    .game-area {
-        height: 100%;
-    }
-
-    .btn {
-        width: 75px;
-        height: 75px;
-        background-color: #e6cdc8af;
-        border-style: hidden;
-    }
-
-
-    .select-area {
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    /*Question Area*/
-    .question-area {
-        padding: 10% 0;
+footer ul {
+    list-style-type: none;
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: space-evenly;
+    position: absolute;
+        bottom: 0;
         width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    /*Score Area*/
-    .score-area {
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .scores {
-        margin: 0.5em auto;
-        display: block;
-        padding: 5px;
-    }
-
-    /*Heading*/
-    .heading {
-        font-size: 2rem;
-    }
+        height: 1.5rem;
 }
 
-@media (max-width: 320px) {
+a {
+    color: #000;
+}
 
-    /*Game Area*/
-    .game-area {
-        height: 70vh;
-        display: flex;
-        flex-wrap: wrap;
-        height: 100%;
-    }
-
-    /*Question Area*/
-    .question-area {
-        padding: 10px 0;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
+#register {
+    display: inline-block;
+        width: 75px;
+        height: 25px;
+        padding: 5px;
+        margin: 5px;
 }

@@ -34,39 +34,21 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 ### LANDING PAGE
 
 * Landing page image
-  * The landing page is an image of water an a sunset which Tammy finds calming.
-  * This shows users a bit about Tammy's personality and what sort of travel Tammy enjoys.
+  
+  * The logo is displayed on each page and is the image of a brain. 
+  * 
 
 ![Landing page image](readme-images/landing-page-one-screenshot.jpg)
 
 * Cover text
-  * The cover text is a brief introduction to Tammy and highlights some places she has travelled giving the user insight on what the page is about at a glance.
+  * The landing page is the home page with the title of the game: QUIZZED, a welcome message and instructions on how to play. There is also a button that takes the user to the game areaQz.
 
-![Cover-text](readme-images/cover-text-screenshot.jpg)
+### GAME AREA PAGE
 
-* Information paragraph on Flights, Accommodation and Recommendations
-  * These paragraphs provide information on their name subject. They are brief and hint at what the user can expect when signing up thus prompting them to complete the sign up form.
-
-![Flights-paragraph](readme-images/landing-page-two-screenshot.jpg)
-![Accommodation-paragraph](readme-images/landing-page-three-screenshot.jpg)
-![Recommendations-paragraph](readme-images/landing-page-four-screenshot.jpg)
-
-* Continents section
-  * This section provides some brief information on each continent. It highlights some facts about each of them.
-  * It also allows the user to determine what destination suits them which engages them early on in the website.
-
-![Continents-info](readme-images/landing-page-five-screenshot.jpg)
-
-* Continents background image
-  * The image of the globe is fitting as it depicts world travel which the website promotes.
-
-![continents-background-image](readme-images/landing-page-six-screenshot.jpg)
-
-### GALLERY PAGE
-
-* Gallery paragraph
-  * The paragraph briefly depicts some of the images ot be seen in the gallery, highlighting the areas of some of the destinations.
-  * This allows the user to view the images with the text in mind and engage with the website and ultimately want to discover more!
+* Gallery paragr*pGame area
+  * The game area has the page heading and logo, there is the navigation menu at the top of the page. The questions are displayed in lsrge font and the multiple choice answers are displayed as buttons which the user can click on. The button will turn red if incorrect and green if the answer is correct. 
+  * The buttons are large to allow for an easy reading of the choices and ample space to click on the answer.
+  * The questions are numbered from 1 - 20.
 
 ![Gallery-paragraph](readme-images/gallery-page-paragraph-screenshot.jpg)
 
