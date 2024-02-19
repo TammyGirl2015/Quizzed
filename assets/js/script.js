@@ -121,6 +121,7 @@ function showQuestion(question, answers) {
 }
 
 let score = 0;
+let currentQuestionIndex = 0; // Define currentQuestionIndex before using it
 
 function checkAnswer(answerIndex) {
     const currentQuestion = questions[currentQuestionIndex];
@@ -153,16 +154,11 @@ function checkAnswer(answerIndex) {
     }
 }
 
+// Function to display the final score
 function displayResults() {
-    // Hide the options and show the results container
-    document.getElementById('options').style.display = 'none';
-    document.getElementById('results').style.display = 'block';
-
-    // Display the score
-    document.getElementById('score').textContent = `Your score is: ${score} / ${questions.length}`;
+    const resultElement = document.getElementById('result');
+    resultElement.textContent = `Your score is ${score} out of ${questions.length}`;
 }
 
 // Start the quiz
-let currentQuestionIndex = 0;
-const resultsContainer = document.getElementById('results');
 showQuestion(questions[currentQuestionIndex].question, questions[currentQuestionIndex].answers);
