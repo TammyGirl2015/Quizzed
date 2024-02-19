@@ -133,10 +133,10 @@ function checkAnswer(answerIndex) {
 
     // Check if the selected answer is correct
     if (currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer) {
-        buttons[answerIndex].style.backgroundColor = 'green';
+        buttons[answerIndex].style.backgroundColor = '#A0D858';
         score++;
     } else {
-        buttons[answerIndex].style.backgroundColor = 'red';
+        buttons[answerIndex].style.backgroundColor = '#E14141';
     }
 
     // Move to the next question after a delay
@@ -154,7 +154,7 @@ function checkAnswer(answerIndex) {
 // Function to display the final score
 function displayResults() {
     const resultElement = document.getElementById('result');
-    resultElement.textContent = `Your score is ${score} out of ${questions.length}`;
+    resultElement.textContent = `Well done on completing the quiz! You scored ${score} out of ${questions.length}.`;
 }
 
 // Start the quiz
