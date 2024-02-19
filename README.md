@@ -19,22 +19,21 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 
 ![Screenshot 2024-02-19 134949](https://github.com/TammyGirl2015/Quizzed/assets/148330702/02f0ef11-8f0f-43ed-9607-377597eb8d84)
 
-
 * Footer
   * This has links to social media websites that open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader by the use of aria-labels.
 
-![Footer menu](readme-images/footer-screenshot.jpg)
+![Screenshot 2024-02-19 135157](https://github.com/TammyGirl2015/Quizzed/assets/148330702/601ee4a4-b3b4-4901-a85a-4e7b8c6f8e6e)
 
 * Favicon
   * The favicon will display as an image on the left in the page window tab next to the page name. The favicon appears when the user is on any page.
   * The favicon makes it easy for users to identify and open the website if they have many tabs open on their screen.
 
-![Favicon](readme-images/favicon-screenshot.jpg)
+![Screenshot 2024-02-19 140331](https://github.com/TammyGirl2015/Quizzed/assets/148330702/4cd478fe-8340-4e01-b995-8147962c74b5)
 
 * 404 Page
   * A 404 page will be implemented and will display if a user navigates to a broken link.
 
-![404-error](readme-images/404-error-screenshot.jpg)
+![Screenshot 2024-02-19 140331](https://github.com/TammyGirl2015/Quizzed/assets/148330702/854adf6c-5c00-4bdd-8cbe-48f0a9aab7cc)
 
 ### HOME PAGE
 
@@ -46,6 +45,8 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 
 * Game Area Button
   * The Game Area button that is displayed on the home page is not in line with the other items on the navigation menu as it is a link to the game area and is sisplayed at the bottom of the page so that after the user has read the instructions, they do not have to go too far to click on the link to go to the game area.
+ 
+ ![Screenshot 2024-02-19 145810](https://github.com/TammyGirl2015/Quizzed/assets/148330702/5f365a7a-1cc3-415b-8dca-8507e9b1b73f)
 
 ### GAME AREA PAGE
 
@@ -56,7 +57,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
   * On clicking each question, the answer will turn red if it is incorrect and green if it is correct.
   * On clicking each question, the next question will display after a question is answered.
 
-![Gallery-paragraph](readme-images/gallery-page-paragraph-screenshot.jpg)
+![Screenshot 2024-02-19 145822](https://github.com/TammyGirl2015/Quizzed/assets/148330702/79aa8722-fd5c-4530-b18e-2b9f3b5dfbe3)
 
 ### FORM PAGE
 
@@ -66,6 +67,8 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 * Form
   * The form has a name, password, email and comment section for the user to complete.
   * On completing the form the user clicks on the register button to submit their details to register.
+  
+![Screenshot 2024-02-19 145840](https://github.com/TammyGirl2015/Quizzed/assets/148330702/aa5654ab-5e1c-4d0c-a938-d35997611f94)
 
 ### EXISTING FEATURES
 
@@ -79,7 +82,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 
 ## TECHNOLOGIES
 
-* JavaSrript
+* JavaScript
   * JavaScript was used to create the functions based off of the basic html structure.
 * HTML
   * HTML was used to create the structure of the website.
@@ -101,6 +104,8 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 ### Responsiveness
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards in <https://ui.dev/amiresponsive>, on Chrome and Microsoft Edge browsers.
+
+![Screenshot 2024-02-19 134734](https://github.com/TammyGirl2015/Quizzed/assets/148330702/568a6601-7021-47d7-a6e2-27271f17b1f1)
 
 Steps to test:
 
@@ -130,7 +135,11 @@ The website was also opened on the following devices and no responsive issues we
 
 Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing of the deployed website to check for and aid accessibility testing.
 
-![Wave-accessibility-testing](readme-images/wave-summary-screenshot.jpg)
+![Screenshot 2024-02-19 140555](https://github.com/TammyGirl2015/Quizzed/assets/148330702/90279991-7c53-402b-9f6e-c0e7aa0340e2)
+
+![Screenshot 2024-02-19 140622](https://github.com/TammyGirl2015/Quizzed/assets/148330702/43eac39a-2f79-49dc-9953-59e05c5bc9d0)
+
+![Screenshot 2024-02-19 140524](https://github.com/TammyGirl2015/Quizzed/assets/148330702/3baffaf0-5cb2-43c4-b9b0-47a8bbd2ac04)
 
 * All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
 * Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
@@ -142,9 +151,7 @@ Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing 
 
 ### Lighthouse Testing
 
-![Lighthouse-Home-Test](readme-images/lighthouse-home-test-screenshot.jpg)
-![Lighthouse-Home-Test](readme-images/lighthouse-gallery-test-screenshot.jpg)
-![Lighthouse-Home-Test](readme-images/lighthouse-discovermore-test-screenshot.jpg)
+![Screenshot 2024-02-19 143815](https://github.com/TammyGirl2015/Quizzed/assets/148330702/d6d3f23b-58b5-48ed-ad3e-fb8c0088a4ed)
 
 ### Functional Testing
 
@@ -165,15 +172,17 @@ Test if Discover More page form submit (Discover More!) button POSTS to correct 
 ### Validator Testing
 
 * HTML
-
-![index.html-validation-test](readme-images/home-validator-screenshot.jpg)
-![gallery.html-validation-test](readme-images/gallery-validator-screenshot.jpg)
-![discovermore.html-validation-test](readme-images/discovermore-validator-screenshot.jpg)
   
+![Screenshot 2024-02-19 152110](https://github.com/TammyGirl2015/Quizzed/assets/148330702/f0457652-cc1a-4e07-b00c-ec08706eda12)
+
+ 
 * CSS
+  
+![Screenshot 2024-02-19 152702](https://github.com/TammyGirl2015/Quizzed/assets/148330702/9d71ca5b-1244-4c44-bfa1-b5c693d2122d)
 
-![css-validation-test](readme-images/css-validator-screenshot.jpg)
+* JavaScript
 
+  
 ### Unfixed Bugs
 
 * 1 alert in wave regarding a repititiive link.
