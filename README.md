@@ -7,6 +7,8 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 ## FEATURES
 
 ### SITE WIDE
+* Logo
+  * The logo is an image of a brain which goes hand in hand with the subject of general knowledge. Quizzes are in my opinion, brain games. The logo appears at the top, center of the page and is shown across all 3 pages.
 
 * Navigation Menu
   * Contains links to the Home, Game Area and Form pages. It is responsive on all devices.
@@ -16,7 +18,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 ![Navigation menu](readme-images/nav-bar-screenshot.jpg)
 
 * Footer
-  * This has links ot social media websites that open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader by the use of aria-labels.
+  * This has links to social media websites that open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader by the use of aria-labels.
 
 ![Footer menu](readme-images/footer-screenshot.jpg)
 
@@ -31,74 +33,53 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 
 ![404-error](readme-images/404-error-screenshot.jpg)
 
-### LANDING PAGE
+### HOME PAGE
 
-* Landing page image
-  
-  * The logo is displayed on each page and is the image of a brain. 
-  * 
+* Welcome Paragraph
+  * This paragraph welcomes the user to the game and let's them know what is in store.
 
-![Landing page image](readme-images/landing-page-one-screenshot.jpg)
+* Instruction Paragraph
+  * This paragraph explains to the user how to play the game.
 
-* Cover text
-  * The landing page is the home page with the title of the game: QUIZZED, a welcome message and instructions on how to play. There is also a button that takes the user to the game areaQz.
+* Game Area Button
+  * The Game Area button that is displayed on the home page is not in line with the other items on the navigation menu as it is a link to the game area and is sisplayed at the bottom of the page so that after the user has read the instructions, they do not have to go too far to click on the link to go to the game area.
 
 ### GAME AREA PAGE
 
-* Gallery paragr*pGame area
-  * The game area has the page heading and logo, there is the navigation menu at the top of the page. The questions are displayed in lsrge font and the multiple choice answers are displayed as buttons which the user can click on. The button will turn red if incorrect and green if the answer is correct. 
-  * The buttons are large to allow for an easy reading of the choices and ample space to click on the answer.
+* Game area
+  * The game area has the page displays the question in bold, large font which is easily readeable for the user.
+  * The buttons with the answer choices are large to allow for an easy reading of the choices and ample space to click on the answer.
   * The questions are numbered from 1 - 20.
+  * On clicking each question, the answer will turn red if it is incorrect and green if it is correct.
+  * On clicking each question, the next question will display after a question is answered.
 
 ![Gallery-paragraph](readme-images/gallery-page-paragraph-screenshot.jpg)
 
-* Gallery images
-  * The gallery shows Tammy's many travels and again highlights a bit about Tammy's personality allowing to relate to Tammy more.
-  * The gallery on the other hand also provides inspiration to the user as it let's the users see what they can enjoy should they choose to engage more.
+### FORM PAGE
 
-![gallery-images](readme-images/gallery-pics-page-one-screenshot.jpg)
-![gallery-images](readme-images/gallery-pics-page-two-screenshot.jpg)
-![gallery-images](readme-images/gallery-pics-page-three-screenshot.jpg)
-![gallery-images](readme-images/gallery-pics-page-four-screenshot.jpg)
-![gallery-images](readme-images/gallery-pics-page-five-screenshot.jpg)
-![gallery-images](readme-images/gallery-pics-page-six-screenshot.jpg)
+* Register Paragraph
+  * This paragraph thanks the user for playing and congratulates them for completing the quiz.
 
-### DISCOVER MORE PAGE
-
-* Discover more image
-  * The image is fitting as it gives a sense of gentle nudging towards the user signing up with Vairgo Travel.
-
-![Discover-more-background-image](readme-images/discover-more-image-screenshot.jpg)
-
-* Discover more (Sign up) form
-  * The sign up form tells the user in a sentence what they benefit shoudl they wish to sign up
-  * The forms is easy to read and has ample space around it to clearly identify what information is required.
-  * The option for flights, accommodation or reocmmednations is also clearly distinguishable and makes for a user friendly experience.
-
-![Discover-more-signup-form](readme-images/discover-more-signup-form-screenshot.jpg)
-![Discover-more-signup-form](readme-images/discover-more-signup-form-two-screenshot.jpg)
-
-* Discover more (submit) button
-  * The discover more button is clearly marked and large enough on all screen sizes to be clicked on ot tapped on in mobile format.
-
-![Discover-more-signup-form](readme-images/discover-more-submit-button-screenshot.jpg)
+* Form
+  * The form has a name, password, email and comment section for the user to complete.
+  * On completing the form the user clicks on the register button to submit their details to register.
 
 ### EXISTING FEATURES
 
-* Responsive design
-* Responsive gallery with filtering'
-* Sign up form and success page
+* The design is responsive on mobile, tablet and laptop displays.
+* The site has a register form and success page
 
 ### FEATURES TO IMPLEMENT
 
-* A future enhancement would be to have a variety of text font to make the website more appealing.
-* An about me section can be added to engage users with some fun facts about Tammy and some interesting stories of her travels.
-* A page for each continent could be created and images shown separately on each link page with more descriptive text.
+* I would like to add some more styling to the website like a new background and a difeerent font. Currently the focus is on getting the code to simply function.
+* I would like to add different quiz subjects so the user can choose between general knowledge, music, film, sports etc.
 
 ## TECHNOLOGIES
 
+* JavaSrript
+  * JavaScript was used to create the functions based off of the basic html structure. 
 * HTML
-  * HTML was the main language used to create the structure of the website.
+  * HTML was used to create the structure of the website.
 * CSS
   * The website was styled using custom CSS.
 * Codeanywhere
@@ -111,6 +92,8 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
   * Icons from <https://fontawesome.com/> were used for the social media links in the footer section and the favicon.
 * Favicon
   * The favicon was created at <https://favicon.io/favicon-converter/>
+* Pexels
+  * The pictures were taken from the pexels website.  
   
 ## TESTING
 

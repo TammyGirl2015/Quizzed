@@ -1,12 +1,12 @@
 // Define your questions and answers
 const questions = [
     {
-        question: "1. What is the capital of France?",
+        question: "1. What is the capital city of France?",
         answers: ["Paris", "London", "Berlin", "Madrid"],
         correctAnswer: "Paris"
     },
     {
-        question: "2. What is the capital of Germany?",
+        question: "2. What is the capital city of Germany?",
         answers: ["Frankfurt", "Berlin", "Denmark", "Amsterdam"],
         correctAnswer: "Berlin"
     },
@@ -30,7 +30,7 @@ const questions = [
         answers: ["Harper Lee", "Mark Twain", "JD Salinger", "Ernest Hemingway"],
         correctAnswer: "Harper Lee"
     },
-      {
+    {
         question: "7. Which country is known as the Land of the Rising Sun?",
         answers: ["Japan", "China", "South Korea", "Taiwan"],
         correctAnswer: "Japan"
@@ -61,7 +61,7 @@ const questions = [
         correctAnswer: "C"
     },
     {
-        question: "13. Which is the loongest river in the world?",
+        question: "13. Which is the longest river in the world?",
         answers: ["Amazon", "Mississippi", "Yangtze", "Nile"],
         correctAnswer: "Nile"
     },
@@ -71,7 +71,7 @@ const questions = [
         correctAnswer: "George Orwell"
     },
     {
-        question: "15. What is the name of the rocess that turns sugar into alcohol?",
+        question: "15. What is the name of the process that turns sugar into alcohol?",
         answers: ["Carbonation", "Fermentation", "Condensation", "Oxidisation"],
         correctAnswer: "Fermentation"
     },
@@ -80,8 +80,8 @@ const questions = [
         answers: ["Apollo 5", "Apollo 4", "Apollo 11", "Apollo 1"],
         correctAnswer: "Apollo 11"
     },
-      {
-        question: "17. What is the capital of Australia?",
+    {
+        question: "17. What is the capital city of Australia?",
         answers: ["Sydney", "Melbourne", "Canberra", "Perth"],
         correctAnswer: "Canberra"
     },
@@ -131,7 +131,7 @@ function checkAnswer(answerIndex) {
     }
 
     // Change the color of the selected button
-    buttons[answerIndex].style.backgroundColor = currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer ? 'green' : 'red';
+    buttons[answerIndex].style.backgroundColor = answerIndex === currentQuestion.answers.indexOf(currentQuestion.correctAnswer) ? 'green' : 'red';
 
     // Move to the next question
     currentQuestionIndex++;

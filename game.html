@@ -7,8 +7,31 @@
     <!--Google Fonts-->
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911&display=swap"
+      href="https://fonts.googleapis.com"
+      target="_blank/css2?family=Goudy+Bookletter+1911&display=swap"
     />
+    <!--Favicon-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="../apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="../favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
     <!--Fontawesome Link-->
     <script
       src="https://kit.fontawesome.com/1990754cdf.js"
@@ -28,31 +51,23 @@
       alt="brain"
     />
     <h1 class="heading">Quizzed</h1>
-    <a href="index.html">Home</a>
-    <a href="game.html">Game Area</a>
-    <a href="form.html">Form</a>
-    <h2>Register</h2>
-    <p>
-      Well done on completing the Quiz! Register with us to recieve alerts
-      whenever we put up new quizzes on our page. Fill in the form below and
-      click to register with us and keep updated.
-    </p>
+    <!--App Pages-->
+    <a href="index.html" class="nav">Home</a>
+    <a href="game.html" class="nav">Game Area</a>
+    <a href="form.html" class="nav">Form</a>
 
-    <form action="submit" method="POST">
-      <label for="username">Name:</label>
-      <input type="text" id="name" name="name" required /><br />
-
-      <label for="last_name">Password:</label>
-      <input type="text" id="last_name" name="last_name" required /><br />
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required /><br />
-
-      <label for="comment">Comment:</label>
-      <textarea id="comment" name="comment"></textarea><br />
-
-      <button type="submit" id="register">Register</button>
-    </form>
+    <div id="quiz-container">
+      <!--Quiz Questions-->
+      <h1 id="question">Question goes here</h1>
+      <!--Multiple Choice Answers-->
+      <div id="options">
+        <button class="option">Option 1</button>
+        <button class="option">Option 2</button>
+        <button class="option">Option 3</button>
+        <button class="option">Option 4</button>
+      </div>
+      <div id="results"></div>
+    </div>
 
     <!--Footer-->
     <footer>
