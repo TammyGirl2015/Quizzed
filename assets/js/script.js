@@ -120,6 +120,8 @@ function showQuestion(question, answers) {
     });
 }
 
+let score = 0;
+
 function checkAnswer(answerIndex) {
     const currentQuestion = questions[currentQuestionIndex];
     const optionsElement = document.getElementById('options');
@@ -130,16 +132,34 @@ function checkAnswer(answerIndex) {
         buttons[i].style.backgroundColor = '#D5D6EA';
     }
 
-    // Change the color of the selected button
-    buttons[answerIndex].style.backgroundColor = answerIndex === currentQuestion.answers.indexOf(currentQuestion.correctAnswer) ? 'green' : 'red';
+    // Check if the selected answer is correct
+    if (answerIndex === currentQuestion.answers.indexOf(currentQuestion.correctAnswer)) {
+        // Change the color of the selected button to green
+        buttons[answerIndex].style.backgroundColor = 'green';
+        // Increment the score
+        score++;
+    } else {
+        // Change the color of the selected button to red
+        buttons[answerIndex].style.backgroundColor = 'red';
+    }
 
     // Move to the next question
     currentQuestionIndex++;
     if (currentQuestionIndex < questions.length) {
         showQuestion(questions[currentQuestionIndex].question, questions[currentQuestionIndex].answers);
     } else {
-        document.getElementById('next-button').style.display = 'none';
+        // Display the final score
+        displayResults();
     }
+}
+
+function displayResults() {
+    // Hide the options and show the results container
+    document.getElementById('options').style.display = 'none';
+    document.getElementById('results').style.display = 'block';
+
+    // Display the score
+    document.getElementById('score').textContent = `Your score is: ${score} / ${questions.length}`;
 }
 
 // Start the quiz

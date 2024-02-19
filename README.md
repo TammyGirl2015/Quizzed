@@ -77,7 +77,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 ## TECHNOLOGIES
 
 * JavaSrript
-  * JavaScript was used to create the functions based off of the basic html structure. 
+  * JavaScript was used to create the functions based off of the basic html structure.
 * HTML
   * HTML was used to create the structure of the website.
 * CSS
@@ -92,8 +92,6 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
   * Icons from <https://fontawesome.com/> were used for the social media links in the footer section and the favicon.
 * Favicon
   * The favicon was created at <https://favicon.io/favicon-converter/>
-* Pexels
-  * The pictures were taken from the pexels website.  
   
 ## TESTING
 
@@ -103,7 +101,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to <https://tammygirl2015.github.io/Vairgo/>
+1. Open browser and navigate to <https://tammygirl2015.github.io/Quizzed/>
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Click and drag the responsive window to maximum width
@@ -135,9 +133,9 @@ Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing 
 * Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
 * Heading levels are not missed or skipped to ensure the importance of content is relayed correctly to the end user
 * All content is contained within landmarks to ensure ease of use for assistive technology, allowing the user to navigate by page regions
-* All not textual content had alternative text or titles so descriptions are read out to screen readers
+* All non textual content has alternative text or titles so descriptions are read out to screen readers
 * HTML page lang attribute has been set
-* Aria properties have been implemented correctl
+* Aria properties have been implemented correctly
 
 ### Lighthouse Testing
 
@@ -221,16 +219,16 @@ The project will now have been cloned on your local machine for use.
 
 ### Page Name
 
-* The page name Vairgo Travel is credited to my good friend Calvin as homeage to him. He gave me permission to use the name and wanted me to include the link to his actual website: [Vairgo-Travel](<https://www.vairgo.co.za>)
+* The page name was initially Trivia Time however i did not think at some point that the questions put on the website were trivia based but rather more general knowledge based hence the change to: Quizzed.
 
 ### Format
 
-* The format of the website is credited to the Love Running walkthrough project from Code Institute module 1.
-* The READme is credited to the sample READme provided in the sample Portfolio Project 1 from Code Institute and another READme sample received from my amazing mentor Daisy McGirr.
+* The format of the website is credited to looking at the general layout of several quiz pages online and i had a general idea of the format of the quiz i wanted to create.
+* The READme is a template from a previous project of mine and adjusted to suit the project.
 
 ### Content
 
-* Content is credited to myself for text input with some inspiration from looking at <https://heyciara.com>
+* Content is credited to myself for text input with questions being taken from several websites as templates for sample questions.
 
 ### Media
 
