@@ -2,20 +2,23 @@
 
 Quizzed is a Quiz game based on general knowledge questions. The home page gives a brief introduction and instructions on how to play. The game area has 20 questions with 4 multiple choice answers to each question that one can choose from. When the correct answer is chosen the button lights up greena nd when the wrong answer is chosen the button turns red. The score is shown at the end of the quiz. The form page has a form for the user to complete tlo register their details to be updated whenever there is a new quiz uploaded on the page.
 
-![mockup](readme-images/am-i-responsive-screenshot.jpg)
+![Screenshot 2024-02-19 134734](https://github.com/TammyGirl2015/Quizzed/assets/148330702/ad85d705-1628-4eeb-ba3a-a3d16dacddcc)
 
 ## FEATURES
 
 ### SITE WIDE
 * Logo
   * The logo is an image of a brain which goes hand in hand with the subject of general knowledge. Quizzes are in my opinion, brain games. The logo appears at the top, center of the page and is shown across all 3 pages.
+ 
+![Screenshot 2024-02-19 160049](https://github.com/TammyGirl2015/Quizzed/assets/148330702/602f0b92-a5e9-4c92-96c8-82f7f326dc9f)
 
 * Navigation Menu
   * Contains links to the Home, Game Area and Form pages. It is responsive on all devices.
     * The navigation allows users to navigate between the pages easily within the site on any device.
     * The logo also allows users to return to the Home page by clicking on it from anywhere in the site.
 
-![Navigation menu](readme-images/nav-bar-screenshot.jpg)
+![Screenshot 2024-02-19 134949](https://github.com/TammyGirl2015/Quizzed/assets/148330702/02f0ef11-8f0f-43ed-9607-377597eb8d84)
+
 
 * Footer
   * This has links to social media websites that open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader by the use of aria-labels.
