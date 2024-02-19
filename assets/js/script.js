@@ -87,7 +87,7 @@ const questions = [
     },
     {
         question: "18. Who has won the most Grand Slam titles?",
-        answers: ["Steffi Graf", "Helen Moody", "Serena WIlliams", "Venus Williams"],
+        answers: ["Steffi Graf", "Helen Moody", "Serena Williams", "Venus Williams"],
         correctAnswer: "Serena Williams"
     },
     {
@@ -134,11 +134,9 @@ function checkAnswer(answerIndex) {
     // Check if the selected answer is correct
     if (currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer) {
         buttons[answerIndex].style.backgroundColor = 'green';
-        // alert('Correct!');
         score++;
     } else {
         buttons[answerIndex].style.backgroundColor = 'red';
-        // alert('Incorrect answer');
     }
 
     // Move to the next question after a delay
@@ -150,7 +148,7 @@ function checkAnswer(answerIndex) {
             // Display the final score
             displayResults();
         }
-    }, 2000); // Wait for  2 seconds
+    }, 1500); // Wait for  1.5 seconds
 }
 
 // Function to display the final score
