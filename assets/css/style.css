@@ -35,21 +35,13 @@ p {
     padding-right: 5%;
 }
 
-/*Question Area*/
-.quiz-container {
-    width: 50%;
-    font-size: 2rem;
-    margin: auto;
-    padding: 50px 0;
-}
-
 .option {
     transition: background-color 0.3s ease;
 }
 
 #quiz-container {
-    padding: 20px;
-    margin: 20px;
+    padding: 15px;
+    margin: 15px;
 }
 
 #options {
