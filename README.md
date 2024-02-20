@@ -171,9 +171,14 @@ Test results are displayed at the end of the quiz             |Complete quiz on 
 ### Validator Testing
 
 * HTML
+  * Both index.html and game.html pages respectively
 
-  ![Screenshot 2024-02-20 085805](https://github.com/TammyGirl2015/Quizzed/assets/148330702/da95c0cf-726c-4ead-beb9-a5c8f36e41b1)
- 
+![Screenshot 2024-02-20 085805](https://github.com/TammyGirl2015/Quizzed/assets/148330702/ecc3ecea-2a1e-44c6-aa7c-3b6b71a4b70d)
+
+
+    ![Screenshot 2024-02-20 085550](https://github.com/TammyGirl2015/Quizzed/assets/148330702/b3b6ae6a-05ff-469b-a64b-98eb79de0e22)
+
+
 * CSS
   
 ![Screenshot 2024-02-20 090834](https://github.com/TammyGirl2015/Quizzed/assets/148330702/5833d2eb-71fa-4ec5-955b-26c6c93edaf9)
