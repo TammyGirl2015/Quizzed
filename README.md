@@ -39,9 +39,9 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
   * This paragraph explains to the user how to play the game.
    
 * Game Area Link
-  * The Game Area button that is displayed on the home page is not in line with the other items on the navigation menu as it is a link to the game area and is isplayed at the bottom of the page so that after the user has read the instructions, they do not have to go too far to click on the link to go to the game area.
+  * The Game Area button that is displayed on the home page is not in line with the other items on the navigation menu as it is a link to the game area and is displayed at the bottom of the page so that after the user has read the instructions, they do not have to go too far to click on the link to go to the game area.
  
-![Screenshot 2024-02-20 091010](https://github.com/TammyGirl2015/Quizzed/assets/148330702/7bc7a88a-a9a8-4f68-9ed2-ad802c33344b)
+![Screenshot 2024-02-20 100926](https://github.com/TammyGirl2015/Quizzed/assets/148330702/5e017cab-271e-4a10-bfe0-eedacf0360eb)
 
 ### GAME AREA PAGE
 
