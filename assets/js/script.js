@@ -122,11 +122,11 @@ function showQuestion(question, answers) {
     const questionElement = document.getElementById('question');
     if (questionElement) {
         questionElement.textContent = question;
-    } else {
-        console.error('Element with id "question" not found');
     }
-    questionElement.textContent = question;
     optionsElement.innerHTML = ''; // Clear previous options
+
+    questionElement.textContent = question;
+
     answers.forEach((answer, index) => {
         const button = document.createElement('button');
         button.textContent = answer;
