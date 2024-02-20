@@ -2,7 +2,7 @@
 
 Quizzed is a Quiz game based on general knowledge questions. The home page gives a brief introduction and instructions on how to play. The game area has 20 questions with 4 multiple choice answers to each question that one can choose from. When the correct answer is chosen the button lights up green, and when the wrong answer is chosen the button turns red. The score is shown at the end of the quiz.
 
-![Screenshot 2024-02-19 134734](https://github.com/TammyGirl2015/Quizzed/assets/148330702/ad85d705-1628-4eeb-ba3a-a3d16dacddcc)
+![Screenshot 2024-02-20 024900](https://github.com/TammyGirl2015/Quizzed/assets/148330702/dae1be53-82b9-4df8-a604-f3e0bfdb35ca)
 
 ## FEATURES
 
@@ -16,7 +16,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
   * Contains links to the Home and Game Area pages. It is responsive on all devices.
     * The navigation allows users to navigate between the pages easily within the site on any device.
 
-![Screenshot 2024-02-19 134949](https://github.com/TammyGirl2015/Quizzed/assets/148330702/02f0ef11-8f0f-43ed-9607-377597eb8d84)
+![Screenshot 2024-02-20 025116](https://github.com/TammyGirl2015/Quizzed/assets/148330702/74b57bcc-bf31-4017-96c5-1d0f6a323112)
 
 * Footer
   * This has links to social media websites that open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader by the use of aria-labels.
@@ -40,7 +40,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 * Game Area Button
   * The Game Area button that is displayed on the home page is not in line with the other items on the navigation menu as it is a link to the game area and is isplayed at the bottom of the page so that after the user has read the instructions, they do not have to go too far to click on the link to go to the game area.
  
- ![Screenshot 2024-02-19 145810](https://github.com/TammyGirl2015/Quizzed/assets/148330702/5f365a7a-1cc3-415b-8dca-8507e9b1b73f)
+![Screenshot 2024-02-20 025305](https://github.com/TammyGirl2015/Quizzed/assets/148330702/4ab182a3-a707-44a2-8d79-92e65b037bff)
 
 ### GAME AREA PAGE
 
@@ -52,7 +52,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
   * On clicking each question, the next question will display after a question is answered.
   * At the end of the quiz, the score will be displayed at the bottom of the page.
 
-![Screenshot 2024-02-19 145822](https://github.com/TammyGirl2015/Quizzed/assets/148330702/79aa8722-fd5c-4530-b18e-2b9f3b5dfbe3)
+![Screenshot 2024-02-20 025335](https://github.com/TammyGirl2015/Quizzed/assets/148330702/d3af21c8-6b7f-419a-b1f8-02614a634f63)
 
 ### EXISTING FEATURES
 
@@ -89,7 +89,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards in <https://ui.dev/amiresponsive>, on Chrome and Microsoft Edge browsers.
 
-![Screenshot 2024-02-19 134734](https://github.com/TammyGirl2015/Quizzed/assets/148330702/568a6601-7021-47d7-a6e2-27271f17b1f1)
+![Screenshot 2024-02-20 024900](https://github.com/TammyGirl2015/Quizzed/assets/148330702/dae1be53-82b9-4df8-a604-f3e0bfdb35ca)
 
 Steps to test:
 
@@ -121,11 +121,9 @@ The website was also opened on the following devices and no responsive issues we
 
 Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing of the deployed website to check for and aid accessibility testing.
 
-![Screenshot 2024-02-19 140555](https://github.com/TammyGirl2015/Quizzed/assets/148330702/90279991-7c53-402b-9f6e-c0e7aa0340e2)
+![Screenshot 2024-02-20 025919](https://github.com/TammyGirl2015/Quizzed/assets/148330702/0e887680-8ed8-48f7-8024-d89720d00c18)
 
-![Screenshot 2024-02-19 140622](https://github.com/TammyGirl2015/Quizzed/assets/148330702/43eac39a-2f79-49dc-9953-59e05c5bc9d0)
-
-![Screenshot 2024-02-19 140524](https://github.com/TammyGirl2015/Quizzed/assets/148330702/3baffaf0-5cb2-43c4-b9b0-47a8bbd2ac04)
+![Screenshot 2024-02-20 030038](https://github.com/TammyGirl2015/Quizzed/assets/148330702/06a59ac4-e5a5-4f10-a5ca-142bbacdf990)
 
 * All forms have associated labels or aria-labels so that this is read out on a screen reader to users who tab to form inputs
 * Color contrasts meet a minimum ratio as specified in [WCAG 2.1 Contrast Guidelines](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html)
@@ -137,7 +135,7 @@ Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing 
 
 ### Lighthouse Testing
 
-![Screenshot 2024-02-19 143815](https://github.com/TammyGirl2015/Quizzed/assets/148330702/d6d3f23b-58b5-48ed-ad3e-fb8c0088a4ed)
+
 
 ### Functional Testing
 
