@@ -1,9 +1,8 @@
 /*Global style*/
 body {
-    background-image: url("assets/images/pexels-aleksandar-pasaric-1323712.jpg");
-    background-color: whitesmoke;
+    background-color: rgba(196, 182, 225, 0.567);
     background-size: 100% auto;
-    font-family: "Protest Strike", sans-serif;
+    font-family: "Goudy Bookletter", sans-serif;
     color: #000000;
     text-align: center;
 }
