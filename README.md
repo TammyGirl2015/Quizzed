@@ -144,20 +144,20 @@ Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing 
 * Click answer function
 * Results display
 
-Description                                                      |Action                                            |Expected Result                                                                                                                                                                                                                                                           |Pass/Fail
------------------------------------------------------------------|--------------------------------------------------|------------------------------------------------------|----------------------------------
+Description                                                   |Action                                            |Expected Result                                                                                                                                                                                                                                                              |Pass/Fail
+--------------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------|----------------------------------
 Test nav links got to correct pages                           |Click on nav links                                |Home-> index.html; Game Area-> game.html                 |Pass
 Test footer links go to correct pages in new tab              |Click on link                                     |Facebook-> <https://www.facebook.com>;                   |Pass
-                                                                                                                  Instagram-><https://www.instagram.com>; 
-                                                                                                                  Twitter(X)-><https://www.twitter.com>;
-                                                                                                                  Threads-><https://www.threads.com>                        
+                                                              |                                                  |Instagram-><https://www.instagram.com>;                  |
+                                                              |                                                  |Twitter(X)-><https://www.twitter.com>;                   |
+                                                              |                                                  |Threads-><https://www.threads.com>                       | 
 Test buttons turn red/green when                              |Click on option buttons                           |Button lights red of incorrect and green if correct      |Pass
-clicked on
+clicked on                                                    |                                                  |                                                         |
 Test 1.5sec delay after answer is chosen                      |Click on option buttons                           |1.5sec delay after the button is clicked on              |Pass
 Test next question appears after answer is chosen and 1.5sec  |Click on option buttons                           |The button lights red/green 1.5sec delay passes and      |Pass
-delay                                                                                                             the next question is displayed
-Test results are displayed at the end of the quiz             |Complete quiz on clicking an option to the last  |The results are displayed at the bottom of the screen     |Pass
-                                                               question                                          based on how many questions were answered correctly
+delay                                                         |                                                  |the next question is displayed                           | 
+Test results are displayed at the end of the quiz             |Complete quiz on clicking an option to the last   |The results are displayed at the bottom of the screen    |Pass
+                                                              |question                                          |based on how many questions were answered correctly      |
 
 ### Validator Testing
 
