@@ -144,7 +144,11 @@ Wave Accessibility (<https://wave.webaim.org/>) tool was used for final testing 
 
 ### Lighthouse Testing
 
+* Lighthouse testing was conducted on both desktop and mobile as shown below respectively
 
+![Screenshot 2024-02-20 103302](https://github.com/TammyGirl2015/Quizzed/assets/148330702/12b5e845-289a-45bb-98ed-522f206a3a85)
+
+![Screenshot 2024-02-20 103426](https://github.com/TammyGirl2015/Quizzed/assets/148330702/d5d157ee-f7ce-4580-8398-c3a17fdba0cc)
 
 ### Functional Testing
 
