@@ -1,7 +1,7 @@
 /*Global style*/
 body {
-    background-color: white;
-    background-image: url("assets/favicon/pexels-karolina-grabowska-4709404.jpg");
+    background-color: rgba(151, 109, 188, 0.167);
+    background-image: url('assets/images/backgroundimage.jpg');
     background-size: 100% auto;
     font-family: "Protest Strike", sans-serif;
     color: #000000;
@@ -51,10 +51,8 @@ p {
 }
 
 #options {
-    display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 20%;
+    margin: 10%;
     margin-top: 10%;
 }
 
