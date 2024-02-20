@@ -128,8 +128,6 @@ function showQuestion(question, answers) {
         optionsElement.innerHTML = '';
     } // Clear previous options
 
-    questionElement.textContent = question;
-
     answers.forEach((answer, index) => {
         const button = document.createElement('button');
         button.textContent = answer;
