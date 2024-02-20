@@ -123,7 +123,10 @@ function showQuestion(question, answers) {
     if (questionElement) {
         questionElement.textContent = question;
     }
-    optionsElement.innerHTML = ''; // Clear previous options
+
+    if (optionsElement.innerHTML) {
+        optionsElement.innerHTML = '';
+    } // Clear previous options
 
     questionElement.textContent = question;
 
