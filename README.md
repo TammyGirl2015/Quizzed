@@ -175,8 +175,7 @@ Test results are displayed at the end of the quiz             |Complete quiz on 
 
 ![Screenshot 2024-02-20 085805](https://github.com/TammyGirl2015/Quizzed/assets/148330702/ecc3ecea-2a1e-44c6-aa7c-3b6b71a4b70d)
 
-
-    ![Screenshot 2024-02-20 085550](https://github.com/TammyGirl2015/Quizzed/assets/148330702/b3b6ae6a-05ff-469b-a64b-98eb79de0e22)
+![Screenshot 2024-02-20 085550](https://github.com/TammyGirl2015/Quizzed/assets/148330702/f3b03e05-5ba6-48c4-8c22-012ba2397dec)
 
 
 * CSS
