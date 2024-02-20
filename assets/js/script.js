@@ -134,7 +134,10 @@ function showQuestion(question, answers) {
         button.addEventListener('click', function () {
             checkAnswer(index);
         });
-        optionsElement.appendChild(button);
+
+        if (optionsElement) {
+            optionsElement.appendChild(button);
+        }
     });
 }
 
