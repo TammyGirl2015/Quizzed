@@ -103,6 +103,20 @@ const questions = [
 ];
 
 // Function to display a question
+/**
+ * Displays a question and its possible answers on the page.
+ *
+ * First clears any previous options from the 'options' element.
+ * Then for each answer in the provided 'answers' array, it creates a new button,
+ * sets the button's text to the answer, and adds an event listener to the button.
+ * The event listener calls the 'checkAnswer' function with the index of the answer when the button is clicked.
+ *
+ * @param {string} question - The question to be displayed.
+ * @param {Array<string>} answers - An array of possible answers to the question.
+ *
+ * @example
+ * showQuestion('What is the capital of France?', ['Paris', 'London', 'Berlin']);
+ */
 function showQuestion(question, answers) {
     const optionsElement = document.getElementById('options');
     const questionElement = document.getElementById('question');
@@ -122,6 +136,12 @@ function showQuestion(question, answers) {
 let score = 0;
 let currentQuestionIndex = 0;
 
+/**
+ * Checks the provided answer against the current question's correct answer.
+ *
+ * @param {number} answerIndex - The index of the answer button that was clicked.
+ * @returns {undefined} - This function does not return a value.
+ */
 function checkAnswer(answerIndex) {
     const currentQuestion = questions[currentQuestionIndex];
     const optionsElement = document.getElementById('options');
@@ -132,6 +152,14 @@ function checkAnswer(answerIndex) {
     }
 
     // Check if the selected answer is correct
+    /**
+ * Evaluates the correctness of a given answer and updates the UI accordingly.
+ *
+ * @param {Object} currentQuestion - The current question object containing answers and correct answer.
+ * @param {number} answerIndex - The index of the selected answer.
+ * @param {HTMLElement[]} buttons - An array of button elements representing the answers.
+ * @param {number} score - The current score, which will be incremented if the answer is correct.
+ */
     if (currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer) {
         buttons[answerIndex].style.backgroundColor = '#A0D858';
         score++;
@@ -152,6 +180,15 @@ function checkAnswer(answerIndex) {
 }
 
 // Function to display the final score
+/**
+ * Displays the results of the quiz on the page.
+ * It updates the text content of the element with the id 'result' to show the score and total number of questions.
+ *
+ * @example
+ * // Assuming the quiz has been completed and 'score' and 'questions' variables are defined
+ * displayResults();
+ * // The 'result' element will be updated with the user's score and total questions
+ */
 function displayResults() {
     const resultElement = document.getElementById('result');
     resultElement.textContent = `Well done on completing the quiz! You scored ${score} out of ${questions.length}.`;
