@@ -124,8 +124,7 @@ function showQuestion(question, answers) {
         questionElement.textContent = question;
     }
 
-    if (optionsElement.innerHTML)
-    {
+    if (optionsElement) {
         optionsElement.innerHTML = '';
     } // Clear previous options
 
