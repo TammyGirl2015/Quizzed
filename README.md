@@ -2,7 +2,8 @@
 
 Quizzed is a Quiz game based on general knowledge questions. The home page gives a brief introduction and instructions on how to play. The game area has 20 questions with 4 multiple choice answers to each question that one can choose from. When the correct answer is chosen the button lights up green, and when the wrong answer is chosen the button turns red. The score is shown at the end of the quiz.
 
-![Screenshot 2024-02-20 024900](https://github.com/TammyGirl2015/Quizzed/assets/148330702/dae1be53-82b9-4df8-a604-f3e0bfdb35ca)
+![Screenshot 2024-02-20 094146](https://github.com/TammyGirl2015/Quizzed/assets/148330702/950e62de-c958-45e9-ab71-e42510d11f5c)
+
 
 ## FEATURES
 
@@ -36,11 +37,11 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 
 * Instruction Paragraph
   * This paragraph explains to the user how to play the game.
-
-* Game Area Button
+   
+* Game Area Link
   * The Game Area button that is displayed on the home page is not in line with the other items on the navigation menu as it is a link to the game area and is isplayed at the bottom of the page so that after the user has read the instructions, they do not have to go too far to click on the link to go to the game area.
  
-![Screenshot 2024-02-20 025305](https://github.com/TammyGirl2015/Quizzed/assets/148330702/4ab182a3-a707-44a2-8d79-92e65b037bff)
+![Screenshot 2024-02-20 091010](https://github.com/TammyGirl2015/Quizzed/assets/148330702/7bc7a88a-a9a8-4f68-9ed2-ad802c33344b)
 
 ### GAME AREA PAGE
 
@@ -52,7 +53,15 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
   * On clicking each question, the next question will display after a question is answered.
   * At the end of the quiz, the score will be displayed at the bottom of the page.
 
-![Screenshot 2024-02-20 025335](https://github.com/TammyGirl2015/Quizzed/assets/148330702/d3af21c8-6b7f-419a-b1f8-02614a634f63)
+![Screenshot 2024-02-20 093905](https://github.com/TammyGirl2015/Quizzed/assets/148330702/3ef8cc92-7304-4c73-847f-6fa4fcbfceac)
+
+### WIREFRAME
+
+* This was the basis for the basic design of the site and the general layout was followed to produce the finished outcome.
+
+  ![Screenshot 2024-02-20 093558](https://github.com/TammyGirl2015/Quizzed/assets/148330702/6abb3b92-8649-40f0-9acf-5bd879184218)
+
+![Screenshot 2024-02-20 093619](https://github.com/TammyGirl2015/Quizzed/assets/148330702/fbcbed8e-67a0-4f82-a487-ac6139e51a2b)
 
 ### EXISTING FEATURES
 
@@ -89,7 +98,7 @@ Quizzed is a Quiz game based on general knowledge questions. The home page gives
 
 All pages were tested to ensure responsiveness on screen sizes from 320px and upwards in <https://ui.dev/amiresponsive>, on Chrome and Microsoft Edge browsers.
 
-![Screenshot 2024-02-20 024900](https://github.com/TammyGirl2015/Quizzed/assets/148330702/dae1be53-82b9-4df8-a604-f3e0bfdb35ca)
+![Screenshot 2024-02-20 094146](https://github.com/TammyGirl2015/Quizzed/assets/148330702/b91848c4-5f67-4667-bf8a-8483a639305d)
 
 Steps to test:
 
@@ -162,25 +171,20 @@ Test results are displayed at the end of the quiz             |Complete quiz on 
 ### Validator Testing
 
 * HTML
-  
-![Screenshot 2024-02-19 152110](https://github.com/TammyGirl2015/Quizzed/assets/148330702/f0457652-cc1a-4e07-b00c-ec08706eda12)
 
+  ![Screenshot 2024-02-20 085805](https://github.com/TammyGirl2015/Quizzed/assets/148330702/da95c0cf-726c-4ead-beb9-a5c8f36e41b1)
  
 * CSS
   
-![Screenshot 2024-02-19 152702](https://github.com/TammyGirl2015/Quizzed/assets/148330702/9d71ca5b-1244-4c44-bfa1-b5c693d2122d)
+![Screenshot 2024-02-20 090834](https://github.com/TammyGirl2015/Quizzed/assets/148330702/5833d2eb-71fa-4ec5-955b-26c6c93edaf9)
 
-* JavaScript
-
-  
 ### Unfixed Bugs
-
-* 1 alert in wave regarding a repititiive link.
-![Wave warning](readme-images/wave-summary-screenshot.jpg)
 
 * Some info indicated in html and css code, namely trailing slashes on void elements to be corrected at a later date.
 
-![HTML-info-message](readme-images/html-info.jpg)
+![Screenshot 2024-02-20 085805](https://github.com/TammyGirl2015/Quizzed/assets/148330702/e718959d-9a70-4e0b-9634-32adab883cf1)
+
+![Screenshot 2024-02-20 085550](https://github.com/TammyGirl2015/Quizzed/assets/148330702/b3fd7216-45d0-44b6-9aa3-ec118f9293a2)
 
 ### Version Control
 
@@ -203,7 +207,7 @@ The following git commands were used throughout development to push code to the 
   * Click 'Save'
   * A live link will be displayed in a green banner when published successfully.
 
-The live link can be found here - 
+The live link can be found here - <https://tammygirl2015.github.io/Quizzed/>
 
 ### Clone the Repository Code Locally
 
