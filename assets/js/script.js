@@ -120,6 +120,11 @@ const questions = [
 function showQuestion(question, answers) {
     const optionsElement = document.getElementById('options');
     const questionElement = document.getElementById('question');
+    if (questionElement) {
+        questionElement.textContent = question;
+    } else {
+        console.error('Element with id "question" not found');
+    }
     questionElement.textContent = question;
     optionsElement.innerHTML = ''; // Clear previous options
     answers.forEach((answer, index) => {
