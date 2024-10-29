@@ -169,6 +169,8 @@ function checkAnswer(answerIndex) {
  * @param {HTMLElement[]} buttons - An array of button elements representing the answers.
  * @param {number} score - The current score, which will be incremented if the answer is correct.
  */
+
+    console.log(currentQuestion)
     if (currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer) {
         buttons[answerIndex].style.backgroundColor = '#A0D858';
         score++;
