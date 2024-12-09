@@ -91,9 +91,9 @@ const questions = [
         correctAnswer: "Serena Williams"
     },
     {
-        question: "19. Which country has not missed the Olympic Games since their inception in 1896?",
-        answers: ["South Africa", "China", "Greece", "USA"],
-        correctAnswer: "Greece"
+        question: "19. Which country is known as the Land of the Rising Sun?",
+        answers: ["Japan", "China", "South Korea", "Taiwan"],
+        correctAnswer: "Japan"
     },
     {
         question: "20. Which country was the first to introduce a plastic bag ban?",
@@ -162,14 +162,13 @@ function checkAnswer(answerIndex) {
 
     // Check if the selected answer is correct
     /**
- * Evaluates the correctness of a given answer and updates the UI accordingly.
- *
- * @param {Object} currentQuestion - The current question object containing answers and correct answer.
- * @param {number} answerIndex - The index of the selected answer.
- * @param {HTMLElement[]} buttons - An array of button elements representing the answers.
- * @param {number} score - The current score, which will be incremented if the answer is correct.
- */
-
+     * Evaluates the correctness of a given answer and updates the UI accordingly.
+     *
+     * @param {Object} currentQuestion - The current question object containing answers and correct answer.
+     * @param {number} answerIndex - The index of the selected answer.
+     * @param {HTMLElement[]} buttons - An array of button elements representing the answers.
+     * @param {number} score - The current score, which will be incremented if the answer is correct.
+     */
     console.log(currentQuestion)
     if (currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer) {
         buttons[answerIndex].style.backgroundColor = '#A0D858';
@@ -187,13 +186,13 @@ function checkAnswer(answerIndex) {
             // Display the final score
             displayResults();
         }
-    }, 1500); // Wait for  1.5 seconds
+    }, 1500); // Wait for 1.5 seconds
 }
 
 // Function to display the final score
 /**
  * Displays the results of the quiz on the page.
- * It updates the text content of the element with the id 'result' to show the score and total number of questions.
+ * It updates the text content of the element with the id'result' to show the score and total number of questions.
  *
  * @example
  * // Assuming the quiz has been completed and 'score' and 'questions' variables are defined
@@ -207,3 +206,6 @@ function displayResults() {
 
 // Start the quiz
 showQuestion(questions[currentQuestionIndex].question, questions[currentQuestionIndex].answers);
+
+// Add event listener for loading state
+document.getElementById('loading').style.display = 'none';

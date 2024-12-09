@@ -1,4 +1,4 @@
-/*Global style*/
+/* Global style */
 body {
     background-color: rgba(196, 182, 225, 0.567);
     background-size: 100% auto;
@@ -7,13 +7,13 @@ body {
     text-align: center;
 }
 
-/*Heading*/
+/* Heading */
 .heading {
     text-align: center;
     font-size: 2.5rem;
 }
 
-/*Logo*/
+/* Logo */
 .logo {
     height: 80px;
     padding-right: 5px;
@@ -55,7 +55,12 @@ p {
     margin-top: 10%;
 }
 
-button {
+.button-container {
+    display: flex;
+    gap: 10px;
+}
+
+.option-button {
     display: inline-block;
     border-style: none;
     width: 175px;

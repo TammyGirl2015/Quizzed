@@ -47,6 +47,9 @@
   </head>
 
   <body>
+    <!--Loading state-->
+    <div id="loading">Loading...</div>
+
     <!--Heading-->
     <img
       class="logo"
@@ -62,12 +65,7 @@
       <!--Quiz Questions-->
       <h1 id="question">Question goes here</h1>
       <!--Multiple Choice Answers-->
-      <div id="options">
-        <button class="option">Option 1</button>
-        <button class="option">Option 2</button>
-        <button class="option">Option 3</button>
-        <button class="option">Option 4</button>
-      </div>
+      <div id="options"></div>
       <!--Results container-->
       <div id="result"></div>
     </div>
@@ -111,5 +109,15 @@
 
     <!--JS Script Link-->
     <script src="assets/js/script.js"></script>
+    <script>
+      // Error handling
+      window.addEventListener('error', function(error) {
+        console.error('An error occurred:', error);
+      });
+
+      window.addEventListener('unhandledrejection', function(event) {
+        console.error('Unhandled promise rejection:', event.reason);
+      });
+    </script>
   </body>
 </html>
