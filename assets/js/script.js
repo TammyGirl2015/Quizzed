@@ -91,9 +91,9 @@ const questions = [
         correctAnswer: "Serena Williams"
     },
     {
-        question: "19. Which country is known as the Land of the Rising Sun?",
-        answers: ["Japan", "China", "South Korea", "Taiwan"],
-        correctAnswer: "Japan"
+        question: "19. Which country has not missed the Olympic Games since their inception in 1896?",
+        answers: ["South Africa", "China", "Greece", "USA"],
+        correctAnswer: "Greece"
     },
     {
         question: "20. Which country was the first to introduce a plastic bag ban?",
@@ -117,22 +117,36 @@ const questions = [
  * @example
  * showQuestion('What is the capital of France?', ['Paris', 'London', 'Berlin']);
  */
+// Function to display a question
+// Variables to track the quiz state
+let score = 0;
+let currentQuestionIndex = 0;
+
+// Function to display a question
 function showQuestion(question, answers) {
     const optionsElement = document.getElementById('options');
     const questionElement = document.getElementById('question');
+
     if (questionElement) {
         questionElement.textContent = question;
     }
 
     if (optionsElement) {
-        optionsElement.innerHTML = '';
-    } // Clear previous options
+        optionsElement.innerHTML = ''; // Clear previous options
+    }
 
     answers.forEach((answer, index) => {
         const button = document.createElement('button');
         button.textContent = answer;
+        button.classList.add('option-button'); // Add a class for styling
+        button.dataset.index = index; // Store the index for reference
+
         button.addEventListener('click', function () {
-            checkAnswer(index);
+            if (button.disabled) {
+                displayMessage("Please wait for the next question.");
+            } else {
+                checkAnswer(index, button);
+            }
         });
 
         if (optionsElement) {
@@ -141,40 +155,23 @@ function showQuestion(question, answers) {
     });
 }
 
-// Check Answer
-let score = 0;
-let currentQuestionIndex = 0;
-
-/**
- * Checks the provided answer against the current question's correct answer.
- *
- * @param {number} answerIndex - The index of the answer button that was clicked.
- * @returns {undefined} - This function does not return a value.
- */
-function checkAnswer(answerIndex) {
+// Function to check the answer
+function checkAnswer(answerIndex, selectedButton) {
     const currentQuestion = questions[currentQuestionIndex];
     const optionsElement = document.getElementById('options');
     const buttons = optionsElement.getElementsByTagName('button');
 
-    for (let i = 0; i < buttons.length; i++) {
-        buttons[i].style.backgroundColor = '#D5D6EA';
+    // Disable all buttons to prevent multiple selections
+    for (let button of buttons) {
+        button.disabled = true; // Disable each button
     }
 
     // Check if the selected answer is correct
-    /**
-     * Evaluates the correctness of a given answer and updates the UI accordingly.
-     *
-     * @param {Object} currentQuestion - The current question object containing answers and correct answer.
-     * @param {number} answerIndex - The index of the selected answer.
-     * @param {HTMLElement[]} buttons - An array of button elements representing the answers.
-     * @param {number} score - The current score, which will be incremented if the answer is correct.
-     */
-    console.log(currentQuestion)
     if (currentQuestion.answers[answerIndex] === currentQuestion.correctAnswer) {
-        buttons[answerIndex].style.backgroundColor = '#A0D858';
+        selectedButton.style.backgroundColor = '#A0D858'; // Correct answer color
         score++;
     } else {
-        buttons[answerIndex].style.backgroundColor = '#E14141';
+        selectedButton.style.backgroundColor = '#E14141'; // Wrong answer color
     }
 
     // Move to the next question after a delay
@@ -190,22 +187,20 @@ function checkAnswer(answerIndex) {
 }
 
 // Function to display the final score
-/**
- * Displays the results of the quiz on the page.
- * It updates the text content of the element with the id'result' to show the score and total number of questions.
- *
- * @example
- * // Assuming the quiz has been completed and 'score' and 'questions' variables are defined
- * displayResults();
- * // The 'result' element will be updated with the user's score and total questions
- */
 function displayResults() {
-    const resultElement = document.getElementById('result');
-    resultElement.textContent = `Well done on completing the quiz! You scored ${score} out of ${questions.length}.`;
+    const mainContainer = document.getElementById('quiz-container'); // Assuming all quiz content is inside this container
+
+    // Clear the existing content
+    mainContainer.innerHTML = ''; // Remove all children elements
+
+    // Create a message container
+    const messageContainer = document.createElement('div');
+    messageContainer.classList.add('result-message'); // Add a class for styling
+    messageContainer.textContent = `Well done on completing the quiz! You scored ${score} out of ${questions.length}.`;
+
+    // Append the message container to the main container
+    mainContainer.appendChild(messageContainer);
 }
 
 // Start the quiz
 showQuestion(questions[currentQuestionIndex].question, questions[currentQuestionIndex].answers);
-
-// Add event listener for loading state
-document.getElementById('loading').style.display = 'none';

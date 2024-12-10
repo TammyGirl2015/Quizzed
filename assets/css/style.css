@@ -60,7 +60,7 @@ p {
     gap: 10px;
 }
 
-.option-button {
+button {
     display: inline-block;
     border-style: none;
     width: 175px;
